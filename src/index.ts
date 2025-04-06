@@ -13,7 +13,7 @@
  * import { FirecrawlClient } from 'firecrawl-simple-client';
  *
  * const client = new FirecrawlClient({
- *   apiUrl: 'https://api.firecrawl.com',
+ *   apiUrl: 'https://api.firecrawl.com/v1',
  *   apiKey: 'your-api-key',
  * });
  * ```

@@ -41,7 +41,7 @@ const client = new FirecrawlClient();
 
 // Create a client with custom configuration
 const clientWithConfig = new FirecrawlClient({
-  apiUrl: 'https://api.firecrawl.com',
+  apiUrl: 'https://api.firecrawl.com/v1',
   apiKey: 'your-api-key',
 });
 ```
@@ -52,7 +52,7 @@ const clientWithConfig = new FirecrawlClient({
 import { FirecrawlClient } from 'firecrawl-simple-client';
 
 const client = new FirecrawlClient({
-  apiUrl: 'https://api.firecrawl.com',
+  apiUrl: 'https://api.firecrawl.com/v1',
   apiKey: 'your-api-key',
 });
 
@@ -104,7 +104,7 @@ const DEFAULT_CONFIG = {
 
 // Create a client with custom configuration
 const client = new FirecrawlClient({
-  apiUrl: 'https://api.firecrawl.com',
+  apiUrl: 'https://api.firecrawl.com/v1',
   apiKey: 'your-api-key',
 });
 

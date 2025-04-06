@@ -13,7 +13,7 @@ export interface FirecrawlConfig {
    * The URL of the Firecrawl API server
    *
    * @example 'http://localhost:3002/v1'
-   * @example 'https://api.firecrawl.com'
+   * @example 'https://api.firecrawl.com/v1'
    */
   apiUrl: string;
 

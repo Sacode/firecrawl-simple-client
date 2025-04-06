@@ -28,7 +28,7 @@ import { FirecrawlConfig, DEFAULT_CONFIG } from './config';
  *
  * // Create a client with custom configuration
  * const clientWithConfig = new FirecrawlClient({
- *   apiUrl: 'https://api.firecrawl.com',
+ *   apiUrl: 'https://api.firecrawl.com/v1',
  *   apiKey: 'your-api-key',
  * });
  * ```
@@ -58,7 +58,7 @@ export class FirecrawlClient {
    *
    * // Create with custom config
    * const client = new FirecrawlClient({
-   *   apiUrl: 'https://api.firecrawl.com',
+   *   apiUrl: 'https://api.firecrawl.com/v1',
    *   apiKey: 'your-api-key',
    * });
    * ```

@@ -61,11 +61,11 @@ You can set these environment variables before running the examples:
 
 ```bash
 # On Windows
-set FIRECRAWL_API_URL=https://api.firecrawl.com
+set FIRECRAWL_API_URL=https://api.firecrawl.com/v1
 set FIRECRAWL_API_KEY=your-api-key
 
 # On Linux/macOS
-export FIRECRAWL_API_URL=https://api.firecrawl.com
+export FIRECRAWL_API_URL=https://api.firecrawl.com/v1
 export FIRECRAWL_API_KEY=your-api-key
 ```
 
