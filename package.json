@@ -33,7 +33,8 @@
     "format": "prettier --write \"src/**/*.ts\" \"!src/client/**\"",
     "docs": "echo \"Documentation generation not configured yet\"",
     "release": "npm run lint && npm run typecheck && npm run test && npm version",
-    "prepublishOnly": "npm run build:clean"
+    "prepublishOnly": "npm run build:clean",
+    "publish": "npm run release && git push && git push --tags && npm publish"
   },
   "repository": {
     "type": "git",
