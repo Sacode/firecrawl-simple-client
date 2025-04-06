@@ -36,6 +36,14 @@ export default [
             // TypeScript recommended rules (from plugin:@typescript-eslint/recommended)
             ...typescriptEslint.configs.recommended.rules,
 
+            // Explicitly define the @typescript-eslint/ban-ts-comment rule without using structuredClone
+            '@typescript-eslint/ban-ts-comment': ['error', {
+                'ts-expect-error': 'allow-with-description',
+                'ts-ignore': 'allow-with-description',
+                'ts-nocheck': 'allow-with-description',
+                'minimumDescriptionLength': 3
+            }],
+
             // Prettier rules (from plugin:prettier/recommended)
             'prettier/prettier': 'error',
         },
